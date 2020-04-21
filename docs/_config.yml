@@ -31,8 +31,9 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
